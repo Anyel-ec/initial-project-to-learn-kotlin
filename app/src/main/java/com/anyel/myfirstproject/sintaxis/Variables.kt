@@ -1,4 +1,4 @@
-package com.anyel.myfirstproject
+package com.anyel.myfirstproject.sintaxis
 // Project by Anyel - EC
 // comments in one line
 /**
@@ -30,7 +30,8 @@ fun main(){
 
     // Double it is bigger than the float
     val doubleExample:Double = 3000.0000
-
+// crear variable nombre que sea igual a Angel
+    val name:String = "Angel"
     /**
      * variables Alfanumericas
      *
