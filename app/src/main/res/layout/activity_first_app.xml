@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/dark"
     tools:context=".firstaApp.FirstAppActivity">
 
 
@@ -12,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hola mundo"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="35sp"
         app:layout_constraintBottom_toTopOf="@+id/etName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,9 +29,10 @@
         android:layout_margin="2dp"
         android:hint="Digite tu nombre"
         android:singleLine="true"
+        android:textColorHint="@color/white"
         android:maxLines="1"
-
         android:inputType="textPersonName"
+        android:textColor="@color/title_text"
         app:layout_constraintBottom_toTopOf="@+id/btnClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +43,7 @@
         android:id="@+id/btnClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/purple_200"
+        android:background="@color/background_app"
         android:text="Pulsame"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintBottom_toBottomOf="parent"
